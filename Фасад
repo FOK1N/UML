@@ -1,4 +1,4 @@
-[Client{bg:red}]->[Fasade{bg:red}|-linksToSubsystemObjects;-optionalАdditionalFasade|+subsystemOperation()]-.-^[Subsystem classes{bg:red}]
+[Client{bg:red}]->[Fasade{bg:red}|-linksToSubsystemObjects;-optionalАdditionalFasade|+subsystemOperation()]->[Subsystem classes{bg:red}]
 
 [Client]-[note: Клиент использует фасад вместо прямой работы с объектами сложной подсистемы.{bg:white}]
 
